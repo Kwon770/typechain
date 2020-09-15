@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/Kwon770/typechain",
   "author": "Kwon770",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
